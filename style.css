@@ -1,0 +1,97 @@
+a{
+	font-size: 20px;
+}
+
+nav{
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.navInside{
+	background-color: lightgreen;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.homeTitle{
+	font-weight: bold;
+	font-size: 100px;
+	color: darkblue;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.carouTitle{
+	font-weight: bold;
+	color: deeppink;
+}
+
+.footer{
+    margin-top: 50px;
+    height: 75px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightyellow;
+    color: black;
+    text-align: center;
+}
+
+.dogTitle{
+	font-weight: bold;
+	font-size: 75px;
+	color: darkgreen;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.pupTitle{
+	font-weight: bold;
+	font-size: 75px;
+	color: orangered;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.kitTitle{
+	font-weight: bold;
+	font-size: 75px;
+	color: sienna;
+	text-align: center;
+	vertical-align: middle;
+	align-items: center;
+}
+
+.petPics{
+	width: 600px;
+	height: 450px;
+	margin-right: 100px;
+	float: left;
+}
+
+.describe{
+	font-size: 20px;
+}
+
+.downloadPhoto{
+	color: purple;
+}
+
+.outsideLinks{
+	color: darkred;
+}
+
+.disclaimer{
+	margin-top: 5px;
+}
+
+form{
+	position: relative;
+	top: 35px;
+}

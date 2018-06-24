@@ -1,0 +1,94 @@
+<!-- Program Name: CS2901 Project pets.html file -->
+<!-- Author: Takahiro Watanabe -->
+<!-- Date: 05/22/18 -->
+<!-- Description: This is the HTML page for the home page of the Project website. -->
+<!-- Source: <Title> Bootstrap Carousel Plugin -->
+<!--         <Author> W3Schools -->
+<!--	     <Date of Retrieval> 05/22/18 -->
+<!--         <Availability> https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CS290_Project_Home</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- bootstrap & jquery -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+
+	<nav>
+		<div class="navInside">
+			<a href="/~watantak/pets.html">Home</a> |
+			<a href="/~watantak/doggy.html">The Doggy</a> |
+			<a href="/~watantak/puppy.html">The Puppy</a> |
+			<a href="/~watantak/kitty.html">The Kitty</a>
+		</div>
+	</nav>
+
+	<div class="homeTitle">Welcome to Our Pets Page!</div>
+
+	<script src="scrollBox.js"></script>
+
+	<div class="container">
+	  <h1 class="carouTitle">Who is your favorite?</h1>
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner">
+
+	      <div class="item active">
+	        <img src="image/carousel1.jpg" alt="The Doggy" style="width:100%;">
+	        <div class="carousel-caption">
+	          <h2>The Doggy</h2>
+	          <h4>Our first dog!</h4>
+	        </div>
+	      </div>
+
+	      <div class="item">
+	        <img src="image/carousel2.jpg" alt="The Puppy" style="width:100%;">
+	        <div class="carousel-caption">
+	          <h2>The Puppy</h2>
+	          <h4>Our second dog!</h4>
+	        </div>
+	      </div>
+	    
+	      <div class="item">
+	        <img src="image/carousel3.jpg" alt="The Kitty" style="width:100%;">
+	        <div class="carousel-caption">
+	          <h2>The Kitty</h2>
+	          <h4>Another cute guy!</h4>
+	        </div>
+	      </div>
+	  
+	    </div>
+
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left"></span>
+	      <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right"></span>
+	      <span class="sr-only">Next</span>
+	    </a>
+	  </div>
+	</div>
+
+	<div class="footer">
+	  <p>© 2018</p>
+	</div> 
+
+  </body>
+</html>
